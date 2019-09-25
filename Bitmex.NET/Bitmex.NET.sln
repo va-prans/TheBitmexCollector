@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitmex.NET", "Bitmex.NET.csproj", "{E3E4DB1F-E456-4360-9841-8CC1F821CDBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3E4DB1F-E456-4360-9841-8CC1F821CDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E4DB1F-E456-4360-9841-8CC1F821CDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E4DB1F-E456-4360-9841-8CC1F821CDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E4DB1F-E456-4360-9841-8CC1F821CDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45666329-0EAD-40C6-971E-10DF9D4B6DB9}
+	EndGlobalSection
+EndGlobal

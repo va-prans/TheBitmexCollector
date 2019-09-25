@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Vladimir Semashkin</Authors>
+    <PackageLicenseUrl>https://github.com/semashkinvg/Bitmex.NET/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/semashkinvg/Bitmex.NET</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/semashkinvg/Bitmex.NET/blob/master/default.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/semashkinvg/Bitmex.NET/</RepositoryUrl>
+    <Description>Wrapper for BitMEX.com API (REST &amp; WebSocket)</Description>
+    <PackageReleaseNotes>See release notes here https://github.com/semashkinvg/Bitmex.NET/blob/master/releasenotes.md</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>Copyright 2018</Copyright>
+    <PackageTags>BitMEX REST API WebSocket Cryptocurrency ExchangeApi CSharp StockApi Trades Quotes Wrapper Position Instrument CurrencyPair</PackageTags>
+    <Version>2.0.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fody" Version="4.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="LibLog" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="PropertyChanged.Fody" Version="2.6.0" />
+    <PackageReference Include="WebSocket4Net" Version="0.15.2" />
+  </ItemGroup>
+
+</Project>
